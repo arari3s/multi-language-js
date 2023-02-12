@@ -28,6 +28,7 @@ export default function Authenticated({ auth, header, children }) {
                                 >
                                     Dashboard
                                 </NavLink>
+                                <NavLink>{__("Article")}</NavLink>
                             </div>
                         </div>
 

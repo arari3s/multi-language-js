@@ -2,7 +2,7 @@ import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Head, useForm } from "@inertiajs/react";
 import PrimaryButton from "@/Components/PrimaryButton";
 
-export default function Dashboard(props) {
+export default function Create(props) {
     const { data, setData, post } = useForm({ name: "" });
     const submit = (e) => {
         e.preventDefault();
